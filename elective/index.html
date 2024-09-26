@@ -5,18 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Blog with Images</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-<body>
+<body>   
     <header>
-        <h1>3 Steps How to Feed Your Toddlers</h1>
-        <div class="header-Right">
-            <a href="services.html">Services</a>
-            <a href="resume.html">Resume</a>
-            <a href="about.html">About</a>
-             <a href="testi.html">Testimonial</a>
-            <a class="active" href="index1.html">Home</a>
-        </div>
+                
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="pediatrics.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                3 Steps of Feeding Toddlers
+              </a>
+            </div>
+          </nav>
+        <ul class="nav justify-content-end">
+            <li class="nav1">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav2">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+            <li class="nav4">
+              <a class="nav-link active"  href="index.html"aria-disabled="true">Home</a>
+            </li>
+          </ul>
+
     </header>
+  
     <main>
         <article>
             <img src="Squish-Meals-3.jpg" alt="Choosing a topic" class="step-image">
@@ -29,13 +46,28 @@
             <p>By 12 months, transition from bottles to cups, and use cups with straws instead of sippy cups. Teach your toddler to feed themselves with a spoon and fork, allowing them to develop important fine motor skills and independence. This step-by-step approach helps your child learn to eat and makes mealtime more enjoyable.</p>
         </article>
         <article>
-            <img src="3.jpg" alt="Promoting the blog" class="step-image">
-            <h2>Step 3: Offer a Variety of Nutritious Foods</h2>            
-            <p>Provide a balanced diet with a variety of foods, including protein sources, vegetables, fruits, and whole grains. Serve small portions (About 1/4 to 1/2 of an Adult serving size) and let your toddler decide how much they want to eat. This approach helps them develop healthy eating habits and reduces the risk of overfeeding or underfeeding. Remember to follow the American Academy of Pediatrics’ guidelines for calorie intake based on your child’s height and age.</p>
+          <img src="3.jpg" alt="Promoting the blog" class="step-image">
+            <h2 class="juju">Step 3: Offer a Variety of Nutritious Foods</h2>            
+            <p class="plow">Provide a balanced diet with a variety of foods, including protein sources, vegetables, fruits, and whole grains. Serve small portions (About 1/4 to 1/2 of an Adult serving size) and let your toddler decide how much they want to eat. This approach helps them develop healthy eating habits and reduces the risk of overfeeding or underfeeding. Remember to follow the American Academy of Pediatrics’ guidelines for calorie intake based on your child’s height and age.</p>
+            
         </article>
     </main>
     <footer>
-        <p></p>
+      <div class="card text-center">
+        <div class="card-header">
+          
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Contact Us</h5>
+          <p class="card-text">Contact info, suggestion page, and concern and questions.</p>
+          <a href="https://www.facebook.com" class="btn btn-secondary"><img src="facebook.png" alt="facebook" width="30" height="30"></a>
+          <a href="https://www.twitter.com" class="btn btn-secondary"><img src="twitter.png" alt="twitter" width="30" height="30"></a>
+          <a href="https://www.instagram.com" class="btn btn-secondary"><img src="instagram.png" alt="ig" width="30" height="30"></a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          All Rights Reserved 2025.
+        </div>
+      </div>
     </footer>
 </body>
 </html>

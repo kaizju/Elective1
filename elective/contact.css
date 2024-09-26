@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+ul{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    color: rgb(85, 103, 156);
+    padding: 20px;
+    text-align: left;
+}
+.contact-us {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.social-icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
