@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 244);
+}
+ul{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    color: rgb(85, 103, 156);
+    padding: 20px;
+    text-align: left;
+}
+
+main {
+    padding: 100px;
+}
+
+article {
+    background: rgb(225, 215, 183);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+.step-image {
+    content: "";
+    clear: both;
+    display: table;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgb(85, 103, 156);
+    color: #fff;    
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+ 

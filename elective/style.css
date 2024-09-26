@@ -4,14 +4,16 @@ body {
     padding: 0;
     background-color: rgb(244, 244, 244);
 }
-.header{
-    
+ul{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
 }
+
 header {
-    background: rgb(85, 103, 156);
-    color: #fff;
+    background: rgb(255, 255, 255);
+    color: rgb(85, 103, 156);
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 main {
@@ -24,36 +26,28 @@ article {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-article1 {
-    background: #fff;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-article2 {
-    background: #fff;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
+
 .step-image {
-    width: 480px;
-    height: 480px;
+    content: "";
+    clear: both;
+    display: table;
     border-radius: 5px;
     margin-bottom: 1px;
+    
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background: rgb(85, 103, 156);
-    color: #fff;
-    position: fixed;
+    color: #fff;    
     bottom: 0;
     width: 100%;
+    margin: 0;
 }
+ 
