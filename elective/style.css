@@ -2,15 +2,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(161, 214, 178);
 }
-ul{
+
+
+.custom-navbar {
+    background-color: #000000; 
+}
+.custom-navbar .nav-link {
+    color: white; 
+}
+ul {
     color: rgb(0, 0, 0);
     font-size: 25px;
 }
 
+.navbar-brand{
+    padding-left: 10px;
+}
+.lag-ko{
+    padding: 20px;
+}
 header {
-    background: rgb(255, 255, 255);
+    background: rgb(245, 245, 245);
     color: rgb(85, 103, 156);
     padding: 20px;
     text-align: left;
@@ -20,15 +34,49 @@ main {
     padding: 100px;
 }
 
-article {
-    background: rgb(225, 215, 183);
-    margin: 10px 0;
+.first {
+    background: rgb(241, 243, 194);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    padding-left: 150px;
+    
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.second {
+    background: rgb(241, 243, 194);
+    margin: 5px 0;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.third {
+    background: rgb(241, 243, 194);
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.very {
+    text-align: left;
+    max-width: 400px;
 }
 
 
@@ -38,16 +86,17 @@ article {
     display: table;
     border-radius: 5px;
     margin-bottom: 1px;
-    
+    max-width: 400px;
+    margin-right: 20px;
+
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background: rgb(85, 103, 156);
-    color: #fff;    
+    color:  rgb(161, 214, 178);;
     bottom: 0;
     width: 100%;
     margin: 0;
 }
- 

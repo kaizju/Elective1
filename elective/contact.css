@@ -3,9 +3,16 @@ body {
     background-color: #f4f4f4;
     padding: 20px;
 }
-ul{
+
+ul {
     color: rgb(0, 0, 0);
     font-size: 25px;
+}
+.custom-navbar {
+    background-color: #000000; /* Custom color */
+}
+.custom-navbar .nav-link {
+    color: white; /* Text color */
 }
 
 header {
@@ -14,23 +21,61 @@ header {
     padding: 20px;
     text-align: left;
 }
+
 .contact-us {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
     text-align: center;
 }
+
 .social-icons {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
 .social-icons a {
     text-decoration: none;
     color: #fff;
     padding: 10px;
     border-radius: 50%;
     display: inline-block;
+}
+
+.para {
+    text-align: center;
+    margin: 1rem;
+}
+
+.graph {
+    text-align: center;
+    font-weight: initial;
+    margin: 2rem;
+}
+.info{
+    text-align: center;
+    margin: 2rem;
+}
+.info2{
+    text-align: center;
+    margin: 2rem;
+}
+.info3{
+    text-align: center;
+    margin: 2rem;
+}
+.info4{
+    text-align: center;
+    margin: 2rem;
+}
+.new{
+
+}
+.lag{
+    text-align: center;
+    font-weight: initial;
+    margin: 1rem;
 }
