@@ -3,12 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(244, 244, 244);
+    
 }
 ul{
     color: rgb(0, 0, 0);
     font-size: 25px;
 }
-
+.custom-navbar {
+    background-color: #000000; /* Custom color */
+}
+.custom-navbar .nav-link {
+    color: white; /* Text color */
+}
 header {
     background: rgb(255, 255, 255);
     color: rgb(85, 103, 156);
@@ -17,37 +23,35 @@ header {
 }
 
 main {
-    padding: 100px;
+    padding: 20px;
 }
-
-article {
-    background: rgb(225, 215, 183);
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    font-size: 20px;
-    padding-left: 20px;
+.about-us{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin:20px;
+    line-height: 1.6;
 }
-
-
-.step-image {
-    content: "";
-    clear: both;
-    display: table;
-    border-radius: 5px;
-    margin-bottom: 1px;
-    
-}
-
 footer {
     text-align: center;
     padding: 10px;
-    background: rgb(85, 103, 156);
+    background: rgb(255, 255, 255);
     color: #fff;    
     bottom: 0;
     width: 100%;
     margin: 0;
 }
- 
+.card-body{
+    background-color: #ffffff;
+}
+.buttono{
+    background-color: #ffffff;
+}
+.buttona{
+    background-color: #ffffff;
+}
+.buttonr{
+    background-color: #ffffff;
+}
