@@ -1,13 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 0;
-    background-color: rgb(161, 214, 178);
+    background-color: rgb(255, 255, 255);
 }
-
-
 .custom-navbar {
-    background-color: #000000; 
+    background-color: rgb(0, 31, 63); 
 }
 .custom-navbar .nav-link {
     color: white; 
@@ -25,31 +22,29 @@ ul {
 }
 header {
     background: rgb(245, 245, 245);
-    color: rgb(85, 103, 156);
-    padding: 20px;
+    color: rgb(106, 154, 176);
     text-align: left;
 }
 
 main {
-    padding: 100px;
+    padding: 50px;
 }
 
 .first {
-    background: rgb(241, 243, 194);
+    background: rgb(234, 216, 177);
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
-    padding-left: 150px;
-    
+    padding-left: 150px; 
     display: flex;
     align-items: center;
     margin: 20px;
 }
 
 .second {
-    background: rgb(241, 243, 194);
+    background: rgb(234, 216, 177);
     margin: 5px 0;
     padding: 15px;
     border-radius: 5px;
@@ -62,7 +57,7 @@ main {
 }
 
 .third {
-    background: rgb(241, 243, 194);
+    background: rgb(234, 216, 177);
     margin: 5px 0;
     padding: 15px;
     border-radius: 5px;
@@ -77,6 +72,7 @@ main {
 .very {
     text-align: left;
     max-width: 400px;
+    font-size: medium;
 }
 
 
@@ -88,15 +84,45 @@ main {
     margin-bottom: 1px;
     max-width: 400px;
     margin-right: 20px;
+    padding-left: 100px;
 
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: rgb(85, 103, 156);
+    background: rgb(0, 31, 63);
     color:  rgb(161, 214, 178);;
     bottom: 0;
     width: 100%;
     margin: 0;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    padding-left: 30px;
+}
+
+.hidden-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    z-index: 1;
+    margin-right: 60px;
+}
+
+.menu:hover .hidden-menu {
+    display: block;
+}
+
+.hidden-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hidden-menu ul li {
+    margin: 5px 0;
 }
