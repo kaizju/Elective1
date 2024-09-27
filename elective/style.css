@@ -37,12 +37,8 @@ main {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
-<<<<<<< HEAD
-    padding-left: 150px;
-
-=======
     padding-left: 150px; 
->>>>>>> 1ce668505bd1059e4d87adbaaae7d466a7368ada
+    
     display: flex;
     align-items: flex-start;;
     margin: 0;
