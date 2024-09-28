@@ -17,9 +17,7 @@ ul {
 .navbar-brand{
     padding-left: 10px;
 }
-.lag-ko{
-    padding: 20px;
-}
+
 header {
     background: rgb(245, 245, 245);
     color: rgb(106, 154, 176);
@@ -28,6 +26,7 @@ header {
 
 main {
     padding: 50px;
+    margin: 20px;
 }
 
 .first {
@@ -38,7 +37,6 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
     padding-left: 150px; 
-    
     display: flex;
     align-items: flex-start;;
     margin: 0;
@@ -52,11 +50,14 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
     padding-left: 150px;
-
     display: flex;
     align-items: flex-start;;
     margin: 0;
 
+}
+.carousel slide{
+  margin: 40px;
+  padding: 40px;
 }
 
 .third {
