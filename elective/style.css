@@ -14,19 +14,17 @@ ul {
     font-size: 25px;
 }
 
-.navbar-brand{
-    padding-left: 10px;
-}
+
 
 header {
-    background: rgb(245, 245, 245);
-    color: rgb(106, 154, 176);
+    background: rgb(234, 216, 177);
+    color: rgb(85, 103, 156);  
     text-align: left;
 }
 
 main {
-    padding: 50px;
-    margin: 20px;
+    padding: 100px;
+    margin: 50px;
 }
 
 .first {
@@ -55,9 +53,18 @@ main {
     margin: 0;
 
 }
-.carousel slide{
-  margin: 40px;
-  padding: 40px;
+
+.move{
+    background: rgb(234, 216, 177);
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    padding-left: 150px; 
+    display: flex;
+    align-items: flex-start;;
+    margin: 0;
 }
 
 .third {
@@ -68,7 +75,6 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
     padding-left: 150px;
-
     display: flex;
     align-items: flex-start;;
     margin: 0; 
