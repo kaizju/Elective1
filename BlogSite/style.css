@@ -1,0 +1,175 @@
+.applet-flex-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.applet-flex-container>div {
+    margin-left: .5rem;
+    margin-top: 3rem;
+}
+
+.applet-card {
+    width: 16rem;
+    height: 25rem;
+}
+.applet-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.applet-card .btn {
+    margin-top: 15px; /* Adds spacing between card content and button */
+}
+
+.blog-posts {
+    background-image: url("https://brittanyelise.com/wp-content/uploads/2021/11/baby-girl-newborn-session-tampa-studio_0009.jpg");
+    /* Use a larger image for better quality */
+    background-size: cover;
+    /* Cover the entire section */
+    background-position: center;
+    /* Center the image */
+    background-attachment: fixed;
+    /* Make the background image fixed while scrolling */
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.blog-posts::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+}
+
+.featured-title {
+    z-index: 1;
+}
+
+.featured-title h2 {
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+.featured-title p {
+    font-size: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+
+}
+
+.add {
+    margin: 0;
+    /* Remove default margin */
+    background-color: #3498db;
+    /* Choose any solid color here */
+    color: white;
+    /* Make text white for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.clow {
+    display: flex;
+    /* Make it a flex container */
+    justify-content: center;
+    /* Center the child elements horizontally */
+    align-items: center;
+    /* Center the child elements vertically */
+    width: 100%;
+    /* Ensure it takes full width of the parent */
+    height: 50vh;
+    /* You can adjust the height */
+    padding: 20px;
+    gap: 2rem;
+    /* Add some space between the left and right containers */
+    
+}
+
+.left,
+.right {
+    width: 35rem;
+    /* Adjust width as needed */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* Stack the content vertically */
+    height: 17rem;
+    /* Adjust the height as needed */
+
+}
+
+/* Optional: Adjust text styles to make it look more centered */
+.left p,
+.right p {
+    margin-bottom: 1rem;
+}
+
+.right h2 {
+    text-align: center;
+    color: darkcyan;
+}
+
+.left p {
+    text-align: center;
+}
+
+.right ul {
+    text-align: center;
+}
+.what {
+    display: flex;  /* Enables flexbox layout */
+    flex-direction: column;  /* Stack list items vertically */
+    justify-content: center;  /* Center list items vertically in container */
+    align-items: center;  /* Center list items horizontally */
+    list-style-position: inside;  /* Optional: Makes bullets inside list items */
+    padding: 0; 
+}
+.what li{
+    margin-bottom: 10px;  
+}
+.under{
+    position: relative; /* Set up a positioning context for the pseudo-element */
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.under::after {
+    content: '';
+    position: absolute;
+    bottom: 5px; 
+    left: 40rem;  
+    width: 63rem; 
+    height: 3px;  
+    background-color: #3498db;  
+    transform: translateX(-50%); 
+}
+.under h1{
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    font-family: 'Cairo', sans-serif;
+}
