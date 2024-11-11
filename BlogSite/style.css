@@ -13,6 +13,8 @@
 .applet-card {
     width: 16rem;
     height: 25rem;
+    border: 2px solid #ECDFCC;
+    margin-bottom: 5rem;
 }
 .applet-card .card-body {
     display: flex;
@@ -76,7 +78,7 @@
 .add {
     margin: 0;
     /* Remove default margin */
-    background-color: #3498db;
+    background-color: #A5B68D;
     /* Choose any solid color here */
     color: white;
     /* Make text white for contrast */
@@ -165,7 +167,7 @@
     left: 40rem;  
     width: 63rem; 
     height: 3px;  
-    background-color: #3498db;  
+    background-color: #DA8359;  
     transform: translateX(-50%); 
 }
 .under h1{
@@ -173,42 +175,35 @@
     margin-left: 2rem;
     font-family: 'Cairo', sans-serif;
 }
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+footer {
+    background-color: #A5B68D; /* Dark background for the footer */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center the content */
 }
 
-.footer a {
-    color: #3498db;
-    text-decoration: none;
+.social-icons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icons */
 }
 
-.footer a:hover {
-    text-decoration: underline;
+.social-icons a {
+    color: rgb(0, 0, 0); /* Icon color */
+    font-size: 30px; /* Icon size */
+    margin: 0 15px; /* Space between icons */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
 }
 
-.footer p {
-    margin: 0;
+.social-icons a:hover {
+    color: #1DA1F2; /* Change color on hover (Twitter blue) */
 }
 
-.footer .social-links {
-    margin: 10px 0;
+.social-icons .facebook:hover {
+    color: #3b5998; /* Facebook blue */
 }
 
-.footer .social-links a {
-    margin: 0 10px;
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-}
-
-.footer .social-links a:hover {
-    color: #3498db;
+.social-icons .instagram:hover {
+    color: #C13584; /* Instagram pink */
 }
 
 
@@ -222,7 +217,7 @@ html, body {
     padding-bottom: 80px; 
 }
 .custom-navbar {
-    background-color: #ffffff; 
+    background-color: #FCFAEE; 
 }
 .navbar-brand img {
     width: 5rem;
