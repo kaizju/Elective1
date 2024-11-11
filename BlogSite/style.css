@@ -173,3 +173,80 @@
     margin-left: 2rem;
     font-family: 'Cairo', sans-serif;
 }
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .social-links {
+    margin: 10px 0;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    color: #3498db;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+    padding-bottom: 80px; 
+}
+.custom-navbar {
+    background-color: #ffffff; 
+}
+.navbar-brand img {
+    width: 5rem;
+    height: 5rem;
+}
+ul.what {
+    list-style-type: none; /* Remove default bullet */
+    padding-left: 0;
+}
+
+ul.what li {
+    position: relative;
+    padding-left: 30px; /* Give space for custom bullet */
+}
+
+ul.what li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;  /* Adjust size of the image */
+    height: 20px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/30/30048.png'); /* Replace with your bullet image URL */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
