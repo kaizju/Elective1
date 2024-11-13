@@ -1,0 +1,59 @@
+footer {
+    background-color: #A5B68D; /* Dark background for the footer */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center the content */
+}
+
+.social-icons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icons */
+}
+
+.social-icons a {
+    color: rgb(0, 0, 0); /* Icon color */
+    font-size: 30px; /* Icon size */
+    margin: 0 15px; /* Space between icons */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-icons a:hover {
+    color: #1DA1F2; /* Change color on hover (Twitter blue) */
+}
+
+.social-icons .facebook:hover {
+    color: #3b5998; /* Facebook blue */
+}
+
+.social-icons .instagram:hover {
+    color: #C13584; /* Instagram pink */
+}
+.custom-navbar {
+    background-color: #FCFAEE; 
+}
+.navbar-brand img {
+    width: 5rem;
+    height: 5rem;
+}
+ul.what {
+    list-style-type: none; /* Remove default bullet */
+    padding-left: 0;
+}
+
+ul.what li {
+    position: relative;
+    padding-left: 30px; /* Give space for custom bullet */
+}
+
+ul.what li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;  /* Adjust size of the image */
+    height: 20px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/30/30048.png'); /* Replace with your bullet image URL */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
