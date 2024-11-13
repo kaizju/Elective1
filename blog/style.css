@@ -29,7 +29,7 @@ footer {
     color: #C13584; /* Instagram pink */
 }
 .custom-navbar {
-    background-color: #FCFAEE; 
+    background-color: #FAF6E3; 
 }
 .navbar-brand img {
     width: 5rem;
@@ -57,3 +57,174 @@ ul.what li::before {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.applet-flex-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.applet-flex-container>div {
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.applet-card {
+    width: 18rem;
+    height: 29rem;
+    border: 2px solid #ECDFCC;
+    margin-bottom: 2rem;
+}
+.applet-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.applet-card .card-body a {
+color: #2A3663;
+}
+.applet-card .card-body h5{
+    font-family: 'Lora', serif
+}
+.applet-card .card-body p{
+    font-family: 'Assistant', serif
+}
+.applet-card .btn {
+    margin-top: 15px; /* Adds spacing between card content and button */
+}
+.low{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.under{
+   margin-top: 3rem;
+    position: relative; /* Set up a positioning context for the pseudo-element */
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+.under::after {
+    content: '';
+    position: absolute;
+    bottom: 5px; 
+    left: 35rem;  
+    width: 100rem; 
+    height: 3px;  
+    background-color: #DA8359;  
+    transform: translateX(-50%); 
+}
+.under h1{
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    font-family: 'Cairo', sans-serif;
+}
+.cow1 {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    justify-content: center; /* Horizontally centers the items */
+    padding: 20px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.cow1 img {
+    max-width: 100%; /* Makes sure the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    width: 25rem; /* Set a fixed width for the image */
+    margin-right: 20px; /* Space between image and text */
+    object-fit: cover;
+}
+
+.cow1 .text1 {
+    max-width: 600px; /* Limits the width of the text */
+}
+.cow1 .text1 p{
+    font-family: 'Assistant', serif
+}
+.cow1 .text h3{
+    text-align: center;
+    color: #D8DBBD;
+    margin-bottom: 10rem;
+}
+.cow {
+    background-color: #B59F78;
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    justify-content: center; /* Horizontally centers the items */
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+.cow img {
+    max-width: 100%; /* Makes sure the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    width: 35rem; /* Set a fixed width for the image */
+    margin-right: 20px; /* Space between image and text */
+    object-fit: cover;
+}
+
+.cow .text {
+    max-width: 600px; /* Limits the width of the text */
+}
+.cow .text p{
+    font-family: 'Assistant', serif
+}
+.cow .text h2{
+    text-align: center;
+    color: #D8DBBD;
+    margin-bottom: 3rem;
+} 
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.weak {
+    background: #B59F78;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.weak h2 {
+    margin-top: 0;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+article {
+    background: #B59F78;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    margin-top: 0;
+}
+
